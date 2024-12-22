@@ -3,7 +3,11 @@
 # dictionary with some words and translations
 dictionary = {
     "French": {
-        "bonjour": "good morning", "merci": "thank you", "au revoir": "goodbye"
+        "bonjour": "good morning", "merci": "thank you", "au revoir": "goodbye",
+        "oui": "yes", "non": "no", "bon": "good", "grand": "big", "petit": "small",
+        "maison": "house", "chien": "dog", "chat": "cat", "vie": "life", "eau": "water",
+        "soleil": "sun", "lune": "moon", "viens": "come", "humaine": "human", "feu": "fire",
+        "traduire": "translate", "chirurgie": "surgery"
     },
     "Spanish": {
         "hola": "hello", "gracias": "thank you", "adios": "goodbye"
