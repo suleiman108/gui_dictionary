@@ -10,7 +10,11 @@ dictionary = {
         "traduire": "translate", "chirurgie": "surgery"
     },
     "Spanish": {
-        "hola": "hello", "gracias": "thank you", "adios": "goodbye"
+        "hola": "hello", "gracias": "thank you", "adios": "goodbye", "si": "yes",
+        "no": "no", "casa": "house", "aqua": "water", "vida": "life", "sol": "sun",
+        "grande": "big", "bueno": "good", "malo": "bad", "perro": "dog", "amor": "love",
+        "gate": "cat", "feliz": "happy", "cielo": "heaven", "traducir": "translate", "fuego": "fire",
+        "humana": "human"
     },
     "Hausa": { "sannu": "hello", "nagode": "thank you", "zo": "come"
     },
