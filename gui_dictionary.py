@@ -1,5 +1,8 @@
 #This program translates words in the specified languages to English
 
+from tkinter import *
+
+
 # dictionary with some words and translations
 dictionary = {
     "French": {
@@ -33,3 +36,7 @@ dictionary = {
     "mmiri": "Water", "ulo": "House", "nwoke": "Man/Male"
     }
 }
+
+
+window = Tk()
+window.title("Language Dictionary")
