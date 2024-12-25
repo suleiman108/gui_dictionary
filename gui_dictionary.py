@@ -3,6 +3,17 @@
 from tkinter import *
 
 
+def translate():
+    word = entry.get()
+    lang = language.get()
+
+    translation = dictionary.get(lang, {}).get(word)
+    if translation:
+      result_label.config(text="English Translation: " + translation)    
+    else:
+      result_label.config(text="No translation found.") 
+
+
 # dictionary with some words and translations
 dictionary = {
     "French": {
@@ -40,3 +51,25 @@ dictionary = {
 
 window = Tk()
 window.title("Language Dictionary")
+
+#list of languages
+languages = ["French", "Spanish", "Hausa", "Yoruba", "Igbo"] 
+language = StringVar(window)
+language.set("Select Language") 
+lang_menu = OptionMenu(window, language, *languages)
+lang_menu.pack()
+
+
+word_label = Label(window, text="Enter Word:")
+word_label.pack()
+
+entry = Entry(window)
+entry.pack()
+
+translate_button = Button(window, text="Translate", command=translate)
+translate_button.pack()
+
+result_label = Label(window, text="")
+result_label.pack()
+
+window.mainloop()
