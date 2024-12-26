@@ -45,15 +45,20 @@ dictionary = {
     "o di mma": "I am fine", "Gini ka i naeme?": "What are you doing?","aga m": "I am going", "ebe a": "Here", "ebe ahu": "There",
     "ee": "Yes", "mba": "No", "aha m bu": "My name is", "kedu aha gi?": "What is your name?", "nri": "Food",
     "mmiri": "Water", "ulo": "House", "nwoke": "Man/Male"
+    },
+    "Italian": { "ciao": "hello", "grazie": "thank you", "prego": "you're welcome", "arrivederci": "goodbye", "buongiorno": "good morning",
+    "buonasera": "good evening", "buonanotte": "good night", "per favore": "please", "scusi": "excuse me","mi scusi": "excuse me (more formal)",
+    "grazie mille": "thank you very much", "di niente": "you're welcome", "come sta?": "how are you?", "sto bene, grazie": "I'm fine, thank you",
+    "bene": "good","male": "bad", "mangiare": "to eat", "bere": "to drink", "parlare": "to speak", "ascoltare": "to listen"
     }
 }
 
 
 window = Tk()
-window.title("Language Dictionary")
+window.title("Multiple-Languages Dictionary")
 
 #list of languages
-languages = ["French", "Spanish", "Hausa", "Yoruba", "Igbo"] 
+languages = ["French", "Spanish", "Hausa", "Yoruba", "Igbo", "Italian"] 
 language = StringVar(window)
 language.set("Select Language") 
 lang_menu = OptionMenu(window, language, *languages)
